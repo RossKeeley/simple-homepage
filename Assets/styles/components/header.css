@@ -1,0 +1,63 @@
+/* Log in and search bar */
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 30px;
+  background-color: rgba(47,47,47,255);
+  color: rgba(255,255,255,255);
+}
+
+.login a {
+  color: rgba(255,255,255,255);
+}
+
+.login-links {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.search img {
+  height: 15px;
+  margin: 0 25px;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0 25px;
+}
+
+#logo img {
+  height: 30px;
+}
+
+.menu {
+  margin: 0;
+  height: 100%;
+}
+
+.menu li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 40px;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: rgba(72,72,72,255);
+  font-size: 13px;
+}
+
+.menu .active {
+  height: 100%;
+  line-height: 70px;
+  border-top: 2px solid rgba(198,13,47,255);
+}
+
+.menu .active a {
+  color: rgba(37,37,37,255);
+}
