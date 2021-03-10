@@ -16,10 +16,33 @@
   text-transform: uppercase;
   font-size: 14px;
 }
+.search {
+  display: flex;
+  align-items: center;
+}
+
+#search-bar {
+  background-color: transparent;
+  margin-left: 10px;
+  padding-left: 8px;
+  border: 1px solid rgba(214,214,214,0.3);
+  outline-style: none;
+  font-family: Trebuchet MS;
+  color: rgba(214,214,214,255);
+  font-size: 16px;
+}
+#search-bar::placeholder {
+  color: rgba(214,214,214,0.6);
+}
+
+.search-bar {
+  display: none;
+}
 
 .search img {
   height: 20px;
-  margin: 0 25px;
+  margin: 0 20px 0 15px;
+  cursor: pointer;
 }
 
 /* Navbar */
