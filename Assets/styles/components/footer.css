@@ -1,8 +1,44 @@
 /* Newsletters */
 .newsletter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 60px;
   color: rgb(255, 255, 255);
-  height: 225px;
+  height: 230px;
   background-color: rgba(47,47,47,255);
+  font-size: 30px;
+}
+
+.newsletter-input {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.newsletter-input input {
+  height: 100%;
+  width: 325px;
+  border: none;
+  outline-style: none;
+  padding: 0 0 0 15px;
+  font-size: 18px;
+  font-family: Trebuchet MS;
+}
+
+.newsletter-input img {
+  box-sizing: border-box;
+  height: 50px;
+  padding: 15px;
+}
+
+#submit {
+  border-style: none;
+  background-color: rgba(218,218,218,255);
+  height: 100%;
+  padding: 0;
+  outline-style: none;
 }
 
 /* Footer-list */
