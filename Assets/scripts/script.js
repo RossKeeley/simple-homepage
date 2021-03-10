@@ -7,3 +7,14 @@ function toggleFunction () {
 		menu.className = 'menu';
 	}
 }
+
+function submitEmail () {
+  document.getElementById('email').value = "";
+  // if (validateEmail(input))
+  window.alert("Thank you for subscribing!");
+}
+
+function validateEmail(email) {
+    const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());
+}
