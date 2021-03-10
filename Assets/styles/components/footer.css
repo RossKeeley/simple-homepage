@@ -1,0 +1,12 @@
+/* Newsletters */
+.newsletter {
+  color: rgb(255, 255, 255);
+  height: 225px;
+  background-color: rgba(47,47,47,255);
+}
+
+/* Footer-list */
+#footer-links li {
+  display: inline-block;
+  list-style: none;
+}
